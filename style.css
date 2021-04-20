@@ -1,0 +1,23 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.tooltip {
+  background-color: rgb(200, 200, 200); 
+  z-index: 99; 
+
+  max-width: 300px; 
+
+  border-radius: 5px; 
+  padding: 5px 12px; 
+  margin-bottom: 5px; 
+}
+
+.tooltip-inner {
+  font-weight: 300; 
+
+  display: flex;
+  flex-flow: row; 
+  justify-content: center; 
+  align-items: center;
+}
