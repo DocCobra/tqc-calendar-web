@@ -21,3 +21,36 @@ body {
   justify-content: center; 
   align-items: center;
 }
+
+.fc-timegrid-event .fc-event-time {
+  display: flex;
+  flex-flow: row nowrap; 
+}
+
+.fc-event-main > div.platform-psn,
+.fc-event-main > div.platform-steam, 
+.fc-event-main > div.platform-xbox, 
+.fc-event-main > div.platform-stadia {
+  position: absolute; 
+  top: 0; 
+  right: 0; 
+
+  width: 20px;
+  height: 20px; 
+}
+
+.fc-event-main > div.platform-psn {
+  background: url('https://warmind.io/img/psn_logo.png') center center/cover no-repeat;
+}
+
+.fc-event-main > div.platform-steam {
+  background: url('https://warmind.io/img/steam_logo.png') center center/cover no-repeat;
+}
+
+.fc-event-main > div.platform-xbox {
+  background: url('https://warmind.io/img/xbox_logo.png') center center/cover no-repeat;
+}
+
+.fc-event-main > div.platform-stadia {
+  background: url('https://warmind.io/img/stadia_logo.png') center center/cover no-repeat;
+}
